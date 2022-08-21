@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jatt chabott</title>
+    <link rel="stylesheet" href="chatbot.css">
+
+</head>
+<body>
+    
+    <div class="container">
+    <h1>Ask Your Question?</h1>
+    <h2>yeah,ask your Question</h2>
+    <div class="input">
+        <input type="text" id="user" placeholder="Type Your Quesion..." value="" onkeydown="if(event.keyCode==13){
+            talk()}">
+
+    </div>
+  <p id="result">Answer Appeaing Hear </p>
+  <div class="help"><p><span>Note:</span>click on <b>help</b> button given below to Read the Questions</p>
+       <button class="btn" id="btn" >help?</button>
+      
+    </div>
+    <div class="question" id="ques">
+        <ul>
+            <li>who are you</li>
+            <li>how are you</li>
+            <li>what can i do for you</li>
+            <li>ok</li>
+            <li>bye</li>
+            <li>hi</li>
+            <li>what are you doing</li>
+            <li>where are you from</li>
+            <li>do you use instagram</li>
+        </ul>
+    </div>
+    
+    </div>
+
+
+<script src="chatbot.js"></script>
+    
+</body>
+</html>

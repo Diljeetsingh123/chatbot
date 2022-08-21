@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+height: 100%;
+align-items: center;
+display: flex;
+justify-content:center;
+padding: 100px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdhEQ54py-JBuLoQBJK91NCmWwzSxODVvIog&usqp=CAU);
+}
+
+
+.container{
+    width: 500px;
+    height: 430px;
+    background-color: rgba(235, 255,255, 0.1);
+    background:aqua;
+    border: 1px solid transparent;
+    padding: 30px;
+
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    transform: translateY(-5%);
+    transition: .5s;
+}
+.container h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.container h2{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.input{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+
+
+}
+.input #user{
+    width: 100%;
+    height: 70px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    border-radius: 30px;
+    color:brown;
+    font-size: 20px;
+}
+.container p{
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-family:cursive;
+}
+.help{
+    display: block;
+    position: relative;
+
+    margin-top: 60px;
+    bottom: 0;
+    text-align: center;
+}
+.help p{
+ font-size: 12px;
+ color: red;
+ font-weight: 600;
+}
+.btn{
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    padding:5px;
+    margin-top: 10px;
+    background: linear-gradient(#ff105f,#ffad06);
+    border-radius: 30px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: gray;
+}
+.question{
+    display: none;
+    
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 5px;
+    background: gray;
+    padding: 10px;
+    position: absolute;
+
+}
+.question ul li{
+    list-style: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.question ul li:hover{
+    color: #ff105f;
+}
+@media only screen and (max-width:700px){
+    
+}
